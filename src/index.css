@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.contact_btn{
+  border-radius: 35px;
+  color: white;
+  background-image: linear-gradient(to right, rgb(200, 0, 255) , rgb(0, 30, 255));
+  padding: 8px 30px;
+  font-weight: bold;
+  border: 0;
+  }

@@ -1,0 +1,40 @@
+.FooterSection{
+    background-image: url('../../Assets/FooterBack.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+    padding-top: 70px;
+}
+.FooterSection p{
+    color: rgb(202, 202, 202);
+    font-size: 13px;
+    line-height: 25px;
+}
+.FooterSection .logoImg{
+    width: 13%;
+}
+.media_link a{
+     text-decoration: none;
+}
+.media_link img{
+    width: 5%;
+    margin-right: 10px;
+   
+}
+.footer_link{
+    border-top: 1px solid rgb(120, 120, 120);
+    padding-top: 15px;
+}
+.footer_link a{
+text-decoration: none;
+color: rgb(202, 202, 202);
+font-size: 13px;
+}
+@media screen and (max-width: 420px) {
+    .media_link img{
+        width: 15%;
+       
+    }
+    .FooterSection .logoImg{
+        width: 30%;
+    }
+}

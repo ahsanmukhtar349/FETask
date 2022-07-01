@@ -1,0 +1,31 @@
+.Team_Section{
+    background-image: url('../../Assets/TeamBack.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+    padding: 90px 0;
+}
+.Team_Section .TeamImg img{
+width: 100%;
+border-radius: 8px;
+}
+.Team_Section .TeamImg{
+    position: relative;
+}
+.Team_Section .TeamImg p{
+    position: absolute;
+    left: 39%;
+    bottom: 0;
+    font-size: 15px;
+}
+.Team_Section .icon{
+    width: 8%;
+}
+.Team_Section p{
+    font-size: 14px;
+    color: rgb(195 195 195);
+}
+@media screen and (max-width: 420px) {
+    .Team_Section .icon{
+        width: 13%;
+    }
+}

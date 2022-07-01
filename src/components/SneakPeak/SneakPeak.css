@@ -1,0 +1,16 @@
+.sneakpeak{
+background-image: url('../../Assets/Sneakback.png');
+background-repeat: no-repeat;
+background-size: cover;
+box-shadow: inset 0px 0px 20px 12px black;
+}
+.sneakpeak img{
+width: 100%;
+border-radius: 15px;
+margin-top: 8px;
+}
+@media screen and (max-width: 420px) {
+    .sneakpeak img{
+        width:80%;
+    }
+}

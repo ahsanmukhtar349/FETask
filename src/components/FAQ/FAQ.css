@@ -1,0 +1,38 @@
+.QuestionSection{
+    background-image: url('../../Assets/FAQBack.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+    box-shadow: 0px 0px 20px 20px #000000;
+    padding-bottom: 70px;
+}
+.accordion-button::after{
+    display: none!important;
+}
+.accordion-item{
+    background-color: transparent;
+}
+.accordion-button:not(.collapsed){
+    background-color: #642af1;
+    color: #ffffff;
+}
+.accordion-button{
+    color: #ffffff;
+    background-color: #642af1;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.accordion-body{
+    font-size: 14px;
+    color: #b5b5b5;
+    padding: 0.5rem 1.25rem;
+}
+.accordion-item:first-of-type .accordion-button{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.accordion-item:last-of-type .accordion-button.collapsed{
+    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
